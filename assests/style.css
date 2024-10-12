@@ -5,35 +5,151 @@
 }
 body{
 
-    background-color: rgba(0, 0, 0, 0.912);
+    background-color: rgba(239, 232, 232, 0.912);
 }
 .left-pannel{
     width:180px;
-    background-color:rgb(22, 22, 23);
+    background-color:black;
     height:912px;
-    font-family:rob;
 }
 .left-pannel img{
-    width:180px;
-    height:150px;
+    width:100px;
+    height:100px;
+   padding:40px 40px 10px 40px;
 }
 #subscribe{
     border:solid rgba(243, 238, 238, 0.947) 2px;
     background: transparent;
     border-radius:10px;
-    padding:0.3em;
-    margin:20px 20px 90px 20px;
+    padding:0.2em;
+    margin:20px 20px 60px 40px;
     width:100px;
-    color:yellow;
+    color:rgb(244, 181, 46);
+}
+#subscribe:hover{
+    background-color: rgb(213, 213, 141);
+    color:black;
+    font-weight:bolder;
 }
 .left-pannel i{
 /* display:grid; */
 box-sizing:border-box;
-margin:20px;
+margin:10px;
 color:white;
+display:block;
+padding:20px;
 }
 .icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7{
     padding:15px;
     letter-spacing: 0.2em;
     color:white;
+    display:none;
+
 }
+.icons:hover{
+    transition:ease transform 1s;
+    transform:translate(3px);
+    }  
+.icons:hover span{
+    display:inline;
+    color:rgb(231, 231, 225);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .icons span{
+    transition:transform 0.3s;
+}
+.icons span:hover{
+    color:violet;
+    transform:scale(1.8);
+} */
+
+.icons span:hover{
+    color:rgb(218, 182, 182);
+    font-size:19px;
+}
+
+.top-img{
+    position:absolute;
+    margin-top:0;
+    margin-left:180px;
+    top:0;
+    display:flex;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.885);
+    padding:30px;
+    width:1450px;
+    color:white;
+}
+.top-img .amazon-ad{
+    width:500px;
+    height:300px;
+    border-radius:5px;
+}
+.top-img .amazon-add{
+    padding:10px 10px;
+    width:50px;
+    height:50px;
+    border-radius:20px;
+}
+.top-img .ad {
+    position:absolute;
+    margin-left:70px;
+    top:12%;
+}
+.ad .ad-btn{
+    background-color: rgb(209, 163, 14);
+    width: fit-content;
+    border-radius:5px;
+    padding:4px;
+}
+.ad p{
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:rgb(227, 223, 231);
+     padding:5px;
+}
+.quote{
+    margin:30px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quote p{
+    padding-bottom:60px;
+    font-weight: bolder;
+    font-size:30px;
+}
+.quote button{
+    box-sizing: border-box;
+    padding:10px;
+    font-size:30px;
+    border-radius:10px;
+    background-color: rgba(31, 30, 30, 0.89);
+    color:white;
+}
+
+#shopnow:hover{
+    transition:ease 0.5s transform;
+    transform: scale(1.2);
+}
+
+.video{
+    position:absolute;
+    display:block;
+    top:45%;
+    left:10.8%;
+}
+.video .vj{
+    width:1510px;
+    height:550px;
+}
+.video .container{
+    position:absolute;
+    top:10%;
+    left:5%;
+}
+.video .container .content{
+   padding-top:150px;
+}
+.content span p button{
+padding:20px;
+}
+
