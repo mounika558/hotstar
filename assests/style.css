@@ -5,8 +5,9 @@
 }
 body{
 
-    background-color: rgba(239, 232, 232, 0.912);
+    background-color:black;
 }
+
 .left-pannel{
     width:180px;
     background-color:black;
@@ -122,8 +123,9 @@ padding:20px;
     padding:10px;
     font-size:30px;
     border-radius:10px;
-    background-color: rgba(31, 30, 30, 0.89);
+    background-color: rgba(52, 52, 52, 0.89);
     color:white;
+    border:none;
 }
 
 #shopnow:hover{
@@ -146,10 +148,86 @@ padding:20px;
     top:10%;
     left:5%;
 }
-.video .container .content{
-   padding-top:150px;
+.bb8{
+    width:150px;
+    height:150px;
 }
-.content span p button{
-padding:20px;
+.newrelease{
+color:blue;
+font-weight:bolder;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: relative;
+font-size:20px;
 }
+.content{
+   margin-top:80px;
+}
+.content p{
+    padding:10px;
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 62, 62);
+    text-align:justify;
+    width:300px;
+}
+.content button{
+    padding:15px;
+    background-color:rgb(41, 39, 39);
+    color:white;
+    font-size:22px;
+    border-radius:5px;
+    border:none;
+}
+.content button:hover{
+    /* transform:scale(0.9);
+    transition:ease transform  2s; */
+    color:black;
+    background-color:rgb(140, 140, 138);
+}
+.new-releases h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:white;
+padding:20px 0px 0px 20px;
+}
+.new-releases p{
+    position:absolute;
+    left:80%;
+    top:115%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:white;
+}
+.newmovies{
+    display:flex;
+}
+.newmovies figure img{
+    width:300px;
+    height:400px;
+    padding:0px 5px 0px 10px;
+    
+}
+
+.newmovies figcaption{
+    color:white;
+    text-align:center;   
+}
+.cpy-movie1,.cpy-movie2,.cpy-movie3,.cpy-movie4,.cpy-movie5,.cpy-movie6{
+    display:none;
+    width:200px;
+    height:300px;
+}
+.movie1:hover div{
+display:grid;
+width:80px;
+height:80px;
+}
+.cpy-movie1,.cpy-movie2,.cpy-movie3,.cpy-movie4,.cpy-movie5,.cpy-movie6 button{
+
+}
+
+
+
+
+
 
