@@ -9,13 +9,13 @@ body{
 }
 
 .left-pannel{
-    width:180px;
+    width:120px;
     background-color:black;
     height:912px;
 }
 .left-pannel img{
-    width:100px;
-    height:100px;
+    width:70px;
+    height:70px;
    padding:40px 40px 10px 40px;
 }
 #subscribe{
@@ -35,22 +35,26 @@ body{
 .left-pannel i{
 /* display:grid; */
 box-sizing:border-box;
-margin:10px;
+margin-left:20px;
 color:white;
 display:block;
-padding:20px;
+padding:30px;
 }
 .icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7{
     padding:15px;
     letter-spacing: 0.2em;
     color:white;
     display:none;
-
+    z-index:1;
 }
+
 .icons:hover{
     transition:ease transform 1s;
     transform:translate(3px);
-    }  
+    /* mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+    background:linear-gradient(to right,#0d0d0d,rgba(13, 13, 13, 0.674)30%);
+    width:250px;
+    }
 .icons:hover span{
     display:inline;
     color:rgb(231, 231, 225);
@@ -80,6 +84,7 @@ padding:20px;
     padding:30px;
     width:1450px;
     color:white;
+    z-index:-1;
 }
 .top-img .amazon-ad{
     width:500px;
@@ -87,14 +92,14 @@ padding:20px;
     border-radius:5px;
 }
 .top-img .amazon-add{
-    padding:10px 10px;
+    padding:10px 30px;
     width:50px;
     height:50px;
-    border-radius:20px;
+    border-radius:30px;
 }
 .top-img .ad {
     position:absolute;
-    margin-left:70px;
+    margin-left:90px;
     top:12%;
 }
 .ad .ad-btn{
@@ -138,10 +143,12 @@ padding:20px;
     display:block;
     top:45%;
     left:10.8%;
+    z-index:-1;
 }
 .video .vj{
     width:1510px;
     height:550px;
+
 }
 .video .container{
     position:absolute;
@@ -158,12 +165,13 @@ font-weight:bolder;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 position: relative;
 font-size:20px;
+padding:10px;
 }
 .content{
-   margin-top:80px;
+   margin-top:60px;
 }
 .content p{
-    padding:10px;
+    padding:10px 10px 10px 0;;
     font-size:14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(66, 62, 62);
@@ -192,42 +200,117 @@ padding:20px 0px 0px 20px;
 }
 .new-releases p{
     position:absolute;
-    left:80%;
+    left:85%;
     top:115%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:18px;
-    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    color:rgb(72, 71, 71);
+    padding:20px;
+    font-weight: bold;
+    display:none;
 }
 .newmovies{
     display:flex;
 }
+.new-releases:hover p{
+    color:rgb(178, 172, 172);
+    display:flex;
+}
 .newmovies figure img{
-    width:300px;
-    height:400px;
-    padding:0px 5px 0px 10px;
+    width:200px;
+    height:300px;
+    padding:0px 3px 0px 10px;
     
+}
+.newmovies .movie1{
+    padding-left:50px;
 }
 
 .newmovies figcaption{
     color:white;
-    text-align:center;   
-}
-.cpy-movie1,.cpy-movie2,.cpy-movie3,.cpy-movie4,.cpy-movie5,.cpy-movie6{
-    display:none;
-    width:200px;
-    height:300px;
+    text-align:center;  
+    font-size:25px; 
 }
 .movie1:hover div{
 display:grid;
 width:80px;
 height:80px;
 }
-.cpy-movie1,.cpy-movie2,.cpy-movie3,.cpy-movie4,.cpy-movie5,.cpy-movie6 button{
 
+.festive-block h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    color:white;
+    padding:40px 0px 0px 20px;
+    }
+.festive-block p{
+        position:absolute;
+        left:85%;
+        top:165%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:20px;
+        color:rgb(72, 71, 71);
+        padding:20px;
+        font-weight: bold;
+        display:none;
+    }
+    .festive-block:hover p{
+        color:rgb(178, 172, 172);
+        display: flex;
+    }
+.festive-block .block-busters{
+    display:flex;
+    flex-direction:row;
+
+}
+.festive-block .block-busters img{
+    width:200px;
+    height:300px;
+    padding:30px 0px 0px 10px;
+}
+.festive-block .block-busters .movie1 {
+    padding-left:50px;
+
+}
+.festive-block .block-busters figcaption {
+    font-size: 25px;
+    color:white;
+    text-align:center;
+    padding-top:20px;
 }
 
 
+.details p{
+    color:rgb(177, 175, 175);
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px;
+   align-items:center;
+}
+.details p:hover{
+    cursor:pointer;
+}
 
-
+.details div{
+    display:inline-block;
+    padding:60px;
+    margin:60px 60px 0px 60px;
+}
+/* .details div i{
+    color:white;
+    width:60px;
+    height:60px;
+} */
+footer{
+    margin:0px 60px 60px 60px;
+}
+footer p{
+    color:rgb(177, 175, 175);
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px;
+    display:inline-block;
+    margin-left:60px;
+}
 
 
