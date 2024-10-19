@@ -3,4 +3,4 @@
 Through this project, I aimed to deepen my understanding of front-end development by replicating a complex, dynamic interface. 
 It allowed me to explore advanced concepts in web design, such as responsive layouts, interactive elements, and smooth user experiences. 
 
-Click here to view the site:https://vercel.com/mounika-s-projects/hotstar/AAH2hGrST65MEAuph1ESFyXFkuD8
+Click here to view the site : https://hotstar-mounika-s-projects.vercel.app/
