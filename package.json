@@ -1,0 +1,117 @@
+{
+    "popularshows":
+    [
+        {
+            "show":"./assets/images/aranmanai4.webp",
+            "des":{
+                "image":"./assets/images/aranmanai4.webp",
+                "watchbutton":"Watch Now",
+                "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                
+            }
+        },
+        {
+         "show":"./assets/images/bb8telugu.webp",
+         "des":{
+            "image":"./assets/images/bb8telugu.webp",
+            "Watchbutton":"Watch Now",
+            "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                
+         }
+        },
+        {
+           "show":"./assets/images/frozen2.webp",
+         "des":{
+            "image":"./assets/images/frozen2.webp",
+            "Watchbutton":"Watch Now",
+            "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+        }
+    },
+    {
+        "show":"./assets/images/ghilli.webp",
+      "des":{
+         "image":"./assets/images/ghilli.webp",
+         "Watchbutton":"Watch Now",
+         "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+     }
+  },
+  {
+    "show":"./assets/images/golisoda.webp",
+  "des":{
+     "image":"./assets/images/golisoda.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/junglebook.webp",
+  "des":{
+     "image":"./assets/images/junglebook.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/kalvan.webp",
+  "des":{
+     "image":"./assets/images/kalvan.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/maari.webp",
+  "des":{
+     "image":"./assets/images/maari.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/luca.webp",
+  "des":{
+     "image":"./assets/images/luca.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/manjumel.webp",
+  "des":{
+     "image":"./assets/images/manjumel.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/moana.webp",
+  "des":{
+     "image":"./assets/images/moana.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+    "show":"./assets/images/premalu.webp",
+  "des":{
+     "image":"./assets/images/premalu.webp",
+     "Watchbutton":"Watch Now",
+     "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+  }
+  },
+  {
+     "show":"./assets/images/premalu.webp",
+   "des":{
+      "image":"./assets/images/cars.webp",
+      "Watchbutton":"Watch Now",
+      "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+   }
+   },
+   {
+     "show":"./assets/images/premalu.webp",
+   "des":{
+      "image":"./assets/images/malayalam.webp",
+      "Watchbutton":"Watch Now",
+      "description":"Tamil cinema, also known as Kollywood, is one of the prominent film industries in India, producing a wide range of films across various genres. Known for its rich storytelling, vibrant music, and strong cultural roots, Tamil movies often reflect the traditions, values, and issues prevalent in Tamil society."                 
+   }
+   }
+    ]
+  }
